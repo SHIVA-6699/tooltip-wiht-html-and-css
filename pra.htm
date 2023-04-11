@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <p><span class="tool" data-tooltip="this is details">Lorem </span>
+   <span>ipsum dolor sit, amet consectetur adipisicing elit. Aliquid beatae provident similique quam dolore maiores delectus quibusdam distinctio nulla eligendi autem iste voluptate suscipit, hic minus doloremque unde ab impedit?</span><span>Rem aspernatur, asperiores tempore delectus sunt eveniet voluptas veritatis. Minima distinctio, eveniet at omnis tenetur ea consequatur incidunt, quod dolore architecto eius aperiam blanditiis, odio officiis fugit velit fugiat tempora.</span><span>Sit ipsam esse accusamus commodi possimus a provident laudantium aliquid hic? Aspernatur perspiciatis animi, cum iure quia explicabo consequatur quidem omnis suscipit labore fuga libero magni eligendi quam odio a.</span><span>Sint pariatur eaque esse numquam facere ipsa reiciendis deleniti ex, asperiores sed! Nihil laudantium dignissimos asperiores saepe ipsum accusamus nesciunt, esse quod necessitatibus consequatur tenetur illum ipsam vitae. Incidunt, odit!</span><span>Itaque voluptatibus, praesentium velit aut a dolorem laudantium tempore incidunt iusto minus vero recusandae sint dolore iure officiis deserunt. Facilis minus totam vel vitae, officia eius eos labore porro. Sequi.</span><span>Consequatur iusto dolor, laboriosam dolorum ratione ducimus. Itaque veniam facilis, debitis cumque tenetur libero velit. Numquam ea, aliquid esse porro error beatae pariatur veniam blanditiis ab aut adipisci animi debitis.</span><span>Maxime quam voluptatum consequatur esse. Ducimus fugiat repellat dolor modi, labore repellendus magni sapiente accusamus doloremque assumenda delectus quis voluptas explicabo quaerat nisi commodi cumque dignissimos laudantium dolorem molestias corrupti.</span><span>Quasi suscipit id voluptates error porro quis cum, voluptas fuga quam facere dolorem cupiditate architecto ab labore veniam obcaecati animi earum iusto harum? Deleniti, dolores! Corporis, eos dolore. Repellat, aliquam.</span><span>Officia atque aut exercitationem quaerat delectus sit laborum eligendi impedit animi, magni natus inventore molestiae a fugit iusto ut commodi ex assumenda sequi facere explicabo eum dignissimos ab itaque. Tenetur.</span><span>Odio quo deleniti error soluta est suscipit aliquam perspiciatis possimus sit explicabo iusto doloremque ipsum magnam esse consequuntur qui quibusdam, dignissimos quae excepturi labore. Quo quaerat ex dolore veniam expedita!</span><span>Similique vero ducimus, aliquam deleniti quae magnam sapiente excepturi id beatae molestias eius autem voluptate ea ipsam minima ad culpa eum numquam commodi iste tempore pariatur officia! Cum, modi est.</span><span>Unde et adipisci quas facere laudantium eveniet fuga molestiae ipsa mollitia. Suscipit voluptate natus sequi saepe dolores nulla dolor unde ab nemo explicabo minus ipsa repudiandae, iusto aperiam exercitationem quisquam?</span><span>Amet facilis doloribus architecto quod aliquam nesciunt nobis, cum maxime odit, esse suscipit nihil. Enim dolorem cum veniam quae cumque doloremque et amet aspernatur molestiae saepe mollitia, pariatur sint asperiores!</span><span>Quaerat laboriosam corrupti explicabo sit quam tempore error facilis, possimus, asperiores quis repellat esse iusto impedit veritatis velit eaque praesentium itaque reprehenderit. Ipsam ab blanditiis tempore pariatur. Nesciunt, nobis numquam!</span><span>Illo temporibus iusto pariatur error accusamus sunt placeat earum excepturi maiores fuga repudiandae consequuntur autem nisi, provident vel molestias, eos unde reprehenderit labore! Odio soluta fuga quaerat unde fugit eaque!</span><span>Officiis sunt eveniet commodi vitae, culpa nam eius dolores odio reprehenderit facere necessitatibus exercitationem aliquid! Sequi fuga consequatur quis saepe placeat? Ipsa soluta consectetur inventore sequi assumenda ea nihil id!</span><span>Ipsam ut consequuntur praesentium, dolor quasi suscipit ratione architecto quod modi asperiores? Recusandae exercitationem dolor perspiciatis minima? Obcaecati neque ipsam quam ratione dolorem at sit. Voluptatem exercitationem excepturi in tempore.</span><span>Doloremque laudantium saepe est similique molestias totam, sequi tempora, sapiente exercitationem esse expedita accusamus provident quisquam in et culpa neque! Nobis temporibus quia nulla laboriosam nemo amet reiciendis quos nisi.</span><span>Illo id facilis exercitationem magnam dolores qui sit rerum numquam debitis maxime? Quasi sint ut qui autem tempore. Ipsum temporibus quaerat quod officiis cupiditate expedita ut recusandae voluptas corrupti dolor.</span></p>
+   <style>
+    p
+    {
+   
+    
+   
+    margin-top: 30px;
+   }
+    .tool
+    {
+       
+        position: relative;
+    }
+    .tool:hover::before
+    {
+        content: attr(data-tooltip);
+        position: absolute;
+        top:-26px;
+        left:-10px;
+        white-space: nowrap;
+        border:1px solid black;
+        color:white;
+        background-color: black;
+        border-radius: 5px;
+        
+
+
+    }
+    .tool:hover::after
+    {
+        content: "";
+        position: absolute;
+        top:-6px;
+        border-width: 8px;
+        left:19px;
+     
+        border-style: solid;
+        border-color: rgb(0, 0, 0) transparent transparent transparent;
+    }
+    
+   </style>
+</body>
+</html>
